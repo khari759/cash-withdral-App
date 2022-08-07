@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.card {
+  background-color: #150b3e;
+  padding: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.user {
+  display: flex;
+}
+.profile-logo {
+  background-color: #c7d2fe;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.logo {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7c3aed;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #d4d2db;
+}
+.balance-card {
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #585076;
+}
+.bal-amt {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #d4d2db;
+}
+.rupees {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #585076;
+}
+.withdraw-text {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #d4d2db;
+}
+.withdraw-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #585076;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+}
